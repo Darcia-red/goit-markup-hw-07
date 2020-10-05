@@ -1,0 +1,87 @@
+header {
+  background-color: $bg-color;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.header-list {
+  display: flex;
+}
+.header-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: $title-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link {
+  position: relative;
+}
+.choosen {
+  color: $accent-color;
+}
+.choosen::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -39px;
+  width: 100%;
+  height: 4px;
+  background-color: $accent-color;
+}
+.header-link:hover {
+  color: $accent-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link-mr {
+  margin-right: 50px;
+}
+.contacts-link {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: $text-color;
+  margin-right: 50px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-link:hover .envelope {
+  fill: $accent-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-contacts-align {
+  display: flex;
+  align-items: center;
+}
+.envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill:$text-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts-link:hover .smartphone {
+  fill: $accent-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill:$text-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 100%;
+  background-color:$grey-bg-color;
+  height: 1px;
+}

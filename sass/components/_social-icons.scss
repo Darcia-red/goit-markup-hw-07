@@ -1,0 +1,59 @@
+.social-icon-list {
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-social-icons:not(:last-child) {
+  margin-right: 20px;
+}
+.social-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: $bg-color;
+  border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icon-link:hover,
+.social-icon-link:focus {
+  background-color: $accent-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-icon-link:hover .social-icon {
+  fill: $bg-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-icon-list {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-link:hover {
+  background-color: $accent-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-item {
+  fill: $bg-color;
+}
+.footer-social-link:hover .footer-social-item {
+  fill: $bg-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

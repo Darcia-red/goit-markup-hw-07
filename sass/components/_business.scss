@@ -1,0 +1,45 @@
+.business {
+  padding-bottom: 94px;
+}
+
+.business-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: $title-color;
+  padding-bottom: 50px;
+}
+.card-set {
+  display: flex;
+}
+.card-item {
+  position: relative;
+}
+.card-item > .label {
+  position: absolute;
+  width: 100%;
+  height: 16px;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 40px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  vertical-align: baseline;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.card-item-mr {
+  margin-right: 27px;
+}

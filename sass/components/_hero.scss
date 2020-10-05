@@ -1,0 +1,50 @@
+.main-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: $bg-color;
+}
+.main-hero {
+  background: $dark-bg-color;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.service-button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  color: $bg-color;
+  background-color: $accent-color;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.bg-wrapper-gradient {
+  display: block;
+  background-image: linear-gradient(
+      90deg,
+      rgba(47, 48, 58, 0.4) 50%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../img/hero.png");
+  background-repeat: no-repeat;
+}

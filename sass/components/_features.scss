@@ -1,0 +1,55 @@
+.hidden {
+  display: none;
+}
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.list {
+  display: flex;
+
+  flex-basis: calc((100%-4 * 30px) / 4);
+}
+.list-mr {
+  margin-right: 30px;
+}
+.list-item {
+  margin-right: 30px;
+}
+.item-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: $title-color;
+}
+.item-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: $text-color;
+}
+.fouricons {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+.fouricons-icon {
+  width: 70px;
+  height: 70px;
+}

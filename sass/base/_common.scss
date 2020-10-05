@@ -1,0 +1,39 @@
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $bg-color;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flexbox {
+  display: flex;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration-line: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+}
+
+a:focus,
+a:hover {
+  color: $accent-color;
+}
