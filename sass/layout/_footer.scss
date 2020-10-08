@@ -10,8 +10,7 @@
   font-size: 14px;
   line-height: 24px;
   padding-top: 20px;
-  letter-spacing: 0.03em;
-
+  display: inline-block;
   color: $bg-color;
 }
 .bottom-links {
@@ -122,6 +121,7 @@
   display: flex;
 }
 .footer-flex-list {
+  min-width: max-content;
   margin-right: 70px;
 }
 
